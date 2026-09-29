@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Personal website of Jascha Isaac Pangandian, BS Nursing student, youth leader, and founder of LAMP Online Review Program.">
+<title>Home | Jascha Isaac Pangandian</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<div class="wrap bar">
+<a class="brand" href="index.html">Jascha<span>.</span>Pangandian</a>
+<button class="menu" aria-expanded="false" aria-controls="nav-list">Menu</button>
+<nav aria-label="Main navigation"><ul id="nav-list"><li><a href="index.html" aria-current="page">Home</a></li><li><a href="about.html">About</a></li><li><a href="resume.html">Resume</a></li><li><a href="services.html">Services</a></li><li><a href="testimonials.html">Testimonials</a></li></ul></nav>
+</div>
+</header>
+<main id="main">
+<div class="hero"><div class="wrap">
+<div>
+<h1>Hi, I am Jascha Isaac Pangandian.</h1>
+<p class="lead">I am a BS Nursing student at Mindanao State University - Iligan Institute of Technology (MSU-IIT) passionate about youth empowerment, STEM education, and essentialist leadership.</p>
+<p class="tag">Stripping away the noise to build essential, high-impact solutions for youth and community growth.</p>
+<a class="btn" href="about.html">About me</a><a class="btn alt" href="resume.html">View my resume</a>
+</div>
+<img src="PHOTOS/or-lights.jpg" alt="Jascha in scrubs and a surgical mask, lit by teal operating room lights, holding a stethoscope" width="600" height="600">
+</div></div>
+<section><div class="wrap"><h2>At a glance</h2>
+<div class="facts">
+<p class="fact"><strong>School</strong>MSU-IIT, Iligan City</p>
+<p class="fact"><strong>Course and year</strong>BS Nursing, 3rd year</p>
+<p class="fact"><strong>Leading</strong>Chairperson of CYA-Iligan and Founder of LAMP Online Review Program</p>
+<p class="fact"><strong>Home base</strong>Aurora, Zamboanga del Sur</p>
+</div></div></section><section><div class="wrap"><h2>Snapshots</h2>
+<div class="grid">
+<figure><img src="PHOTOS/lamp-agenda.jpg" alt="Jascha and a teammate reviewing an agenda slide on a laptop in a cafe" loading="lazy"><figcaption>Planning sessions for the LAMP Online Review Program.</figcaption></figure>
+<figure><img src="PHOTOS/bp-check.jpg" alt="Jascha wearing a stethoscope and taking a student's blood pressure outdoors" loading="lazy"><figcaption>Blood pressure checks during a community health activity.</figcaption></figure>
+<figure><img src="PHOTOS/kairos.jpg" alt="Jascha wearing sunglasses and a blue Kairos Asia 2025 shirt by the sea" loading="lazy"><figcaption>Kairos Asia 2025, a youth gathering that shaped my leadership.</figcaption></figure>
+</div></div></section>
+</main>
+<footer class="site">
+<div class="wrap"><p>&copy; 2026 Jascha Isaac Pangandian. All rights reserved. &middot; <a href="mailto:jascha.pangandian@g.msuiit.edu.ph">Email me</a></p></div>
+</footer>
+<script>
+const b=document.querySelector(".menu"),l=document.getElementById("nav-list");
+b.addEventListener("click",()=>{const o=l.classList.toggle("open");b.setAttribute("aria-expanded",o)});
+</script>
+</body>
+</html>
